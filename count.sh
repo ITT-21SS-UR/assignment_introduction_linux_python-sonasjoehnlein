@@ -11,3 +11,4 @@ cat README| tr '[A-Z]' '[a-z]'|      # make all text lowercase
             head -11|                # first ten words
             sed -E 's/^ *[0-9]+ //g' # without counts and command
 									 # Found in thread https://superuser.com/questions/383726/get-the-most-common-appearing-lines-from-file-in-linux
+									 
